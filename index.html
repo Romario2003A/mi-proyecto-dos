@@ -7,8 +7,47 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Proyecto Dos</h1>
-    <p>Segundo servidor con Node.js.</p>
+    <div class="navbar">
+        <span class="logo">⚡ MiApp</span>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Acerca</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </div>
+
+    <div class="hero">
+        <h1>Bienvenido a <span>MiApp</span></h1>
+        <p>Servidor web construido con Node.js puro, sin frameworks.</p>
+        <button onclick="mostrarMensaje()">Comenzar</button>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <div class="icon">🚀</div>
+            <h3>Rápido</h3>
+            <p>Servidor liviano y eficiente con Node.js.</p>
+        </div>
+        <div class="card">
+            <div class="icon">🔒</div>
+            <h3>Seguro</h3>
+            <p>Control total del código sin dependencias externas.</p>
+        </div>
+        <div class="card">
+            <div class="icon">🛠️</div>
+            <h3>Flexible</h3>
+            <p>Personalizable para cualquier tipo de proyecto.</p>
+        </div>
+    </div>
+
+    <div id="mensaje" class="mensaje oculto">
+        ✅ ¡Servidor funcionando correctamente!
+    </div>
+
+    <footer>
+        <p>Hecho con Node.js · Git · GitHub &copy; 2025</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
